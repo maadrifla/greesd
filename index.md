@@ -1,9 +1,4 @@
 
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,9 +9,28 @@
   <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
   <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
   <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubuserconten.com">
+    
+<head>
+  <link href="https://vjs.zencdn.net/6.9.0/video-js.css" rel="stylesheet">
 
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
 
+<body>
+  <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="MY_VIDEO.mp4" type='video/mp4'>
+    <source src="MY_VIDEO.webm" type='video/webm'>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src="https://vjs.zencdn.net/6.9.0/video.js"></script>
+</body>
 
   <link crossorigin="anonymous" media="all" integrity="sha512-hqbuBb0QOOmiWgl8a1V1N5q6TI/G0A2hVt/lCFYafR+fYsuXeRUcsdcb/yUyVEHYXktmUXl0Mx9s/BOUNZVq4w==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-23c9e7262eee71bc6f67f6950190a162.css" />
   <link crossorigin="anonymous" media="all" integrity="sha512-uhW016STopDpi1RjaTXVeWkIz7uko0MvyuH5PlytDqBD2gNENVj4hSVjBkZV7Zk4WlGVRafF0kQ73YaXFPBK1A==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-8b5319d072aa221393f06aa08cd8a12c.css" />
